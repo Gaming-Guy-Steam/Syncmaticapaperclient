@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "syncmatica-paperclient",
+  "version": "0.1.0",
+  "name": "Syncmatica Paper Client",
+  "description": "Client integration for Syncmatica with Paper",
+  "authors": ["Boyzz"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.SyncmaticaPaperClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "malilib": "*",
+    "litematica": "*",
+    "minecraft": "1.21.10"
+  }
+}
